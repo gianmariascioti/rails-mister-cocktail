@@ -12,10 +12,13 @@
   </head>
 
   <body>
-    <%= yield %>
-    <!-- from app/assets/javascripts/application.js -->
-    <%= javascript_include_tag "application" %>
-    <!-- from app/javascript/packs/application.js -->
-    <%= javascript_pack_tag "application" %>
+    <div class="banner"></div>
+      <div class="container">
+        <%= yield %>
+        <!-- from app/assets/javascripts/application.js -->
+        <%= javascript_include_tag "application" %>
+        <!-- from app/javascript/packs/application.js -->
+        <%= javascript_pack_tag "application" %>
+    </div>
   </body>
 </html>
