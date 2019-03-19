@@ -1,7 +1,76 @@
 // Place all the styles related to the cocktails controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http:
+
 .link {
   margin-top: 20px;
   text-align: center;
+  margin-top: 100px;
+
+}
+
+.simple_form label {
+color: #022C43;
+}
+
+.simple_form input{
+  width: 250px;
+  text-align: center;
+  margin-right: 110px;
+  border: 1px solid #022C43;
+  border-radius: 3px;
+}
+
+.simple_form{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.button{
+  border-radius: 5px;
+  color: black;
+  border: 1px solid white;
+  background-color: white;
+  margin: 32px -9px;
+}
+
+.button:hover{
+  background-color: white;
+  border: 1px solid white;
+  color: #022C43;
+}
+
+.card-category-2 {
+  background-size: cover;
+  background-color: white;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: space-around;
+  margin: -72px;
+  margin-top: 80px;
+  // font-size: 24px;
+  // font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px white;
+  }
+
+
+.button-2{
+  border-radius: 5px;
+  color: white;
+  border: 1px solid #022C43;
+  margin: 35px -9px;
+  background-color: #022C43;
+  margin-top: 43px;
+}
+
+.button-2:hover{
+  background-color: white;
+  border: 1px solid #022C43;
+  color: #022C43;
 }
